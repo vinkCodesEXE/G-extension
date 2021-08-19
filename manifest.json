@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "name": "Systweak Launcher",
+    "description": "Quick launch to Systweak Media",
+    "version": "1.0",
+    "icons": {"128": "Logo128.png"},
+    "browser_action": {
+        "deafult_icon": "Logo.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
